@@ -119,10 +119,5 @@ article p {
 #conteneur3 {
     display: flex;
     justify-content: space-between;
-}
-
-.fin {
     background-color: #F2F2F2;
 }
-
-{}
