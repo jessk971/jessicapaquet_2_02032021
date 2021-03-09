@@ -1,0 +1,128 @@
+#conteneur1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Hébergements {
+    background-color: #F2F2F2;
+    border-radius: 10px 10px;
+    background-size: 60%;
+    margin: 30px;
+    width: 60%;
+    height: 550px;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    margin-bottom: 1cm;
+}
+
+img {
+    border-radius: 20px 20px 0px 0px;
+    border: solid;
+    border-color: white;
+    width: 200px;
+    height: 110px;
+}
+
+.menu ul {
+    list-style-type: none;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+a:hover {
+    color: #0065FC;
+}
+
+nav li {
+    margin-left: 1.3em;
+}
+
+h1 {
+    margin-top: -2em;
+    font-size: 16px;
+}
+
+p {
+    font-size: 10px;
+    margin-top: 1em;
+}
+
+article.hotel {
+    background-color: white;
+    border: solid;
+    border-radius: 20px 20px;
+    border-color: white;
+    margin-bottom: 10em;
+    margin: 0.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.imageflottante {
+    float: left;
+}
+
+#conteneur2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#conteneurs {
+    display: flex;
+    justify-content: space-betweens;
+}
+
+article.hotel1 {
+    border-radius: 10px 10px;
+    background-color: white;
+    border: solid;
+    border-color: white;
+    width: 280px;
+    margin: 1em;
+}
+
+.populaires {
+    background-color: #F2F2F2;
+    background-size: 30%;
+    width: 350px;
+    height: 550px;
+    border-radius: 10px 10px;
+    margin: 30px;
+    padding-right: 0.5cm;
+    padding-right: 0.5cm;
+}
+
+.populaires img {
+    border-radius: 20px 0px 0px 20px;
+    width: 130px;
+    height: 120px;
+}
+
+img {
+    object-fit: cover;
+}
+
+h2 {
+    padding-right: initial;
+}
+
+article p {
+    line-height: 1px;
+}
+
+#conteneur3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fin {
+    background-color: #F2F2F2;
+}
+
+{}
