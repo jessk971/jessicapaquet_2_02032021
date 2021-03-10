@@ -119,3 +119,22 @@ article p {
 footer {
     background-color: #F2F2F2;
 }
+
+footer ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.fin {
+    text-align: left;
+}
+
+.fin h3 {
+    margin-left: 1.6cm;
+}
