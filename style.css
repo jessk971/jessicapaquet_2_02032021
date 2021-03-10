@@ -116,8 +116,6 @@ article p {
     line-height: 1px;
 }
 
-#conteneur3 {
-    display: flex;
-    justify-content: space-between;
+footer {
     background-color: #F2F2F2;
 }
