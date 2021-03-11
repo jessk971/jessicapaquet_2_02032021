@@ -10,7 +10,6 @@
     background-size: 60%;
     margin: 30px;
     width: 60%;
-    height: 550px;
     padding-left: 0.5cm;
     padding-right: 0.5cm;
     margin-bottom: 1cm;
@@ -91,7 +90,6 @@ article.hotel1 {
     background-color: #F2F2F2;
     background-size: 30%;
     width: 350px;
-    height: 550px;
     border-radius: 10px 10px;
     margin: 30px;
     padding-right: 0.5cm;
@@ -133,8 +131,13 @@ footer ul {
 
 .fin {
     text-align: left;
+    margin-right: 3.5cm;
 }
 
 .fin h3 {
     margin-left: 1.6cm;
+}
+
+@font-face {
+    font-family: ;
 }
