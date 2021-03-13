@@ -75,6 +75,8 @@ h3 {
 #conteneurs {
     display: flex;
     justify-content: space-betweens;
+    margin: 1.5em;
+    padding: 1em;
 }
 
 article.hotel1 {
@@ -82,19 +84,23 @@ article.hotel1 {
     background-color: white;
     border: solid;
     border-color: white;
-    width: 280px;
+    width: 270px;
     margin: 0.5em;
-    margin-bottom: 0.25cm;
+    margin-bottom: 0.5cm;
+    margin-right: 0.25em;
+    text-align: left;
 }
 
 .populaires {
     background-color: #F2F2F2;
     background-size: 30%;
-    width: 350px;
+    width: 320px;
     border-radius: 10px 10px;
-    margin: 30px;
+    margin-right: 0.25em;
     padding-right: 0.5cm;
     padding-right: 0.5cm;
+    margin-bottom: 2.2em;
+    margin-top: 1.9em;
 }
 
 .populaires img {
@@ -143,7 +149,7 @@ article.hotel h3 {
 
 article.hotel p {
     margin-left: 0.5em;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .Hébergements h2 {
@@ -152,4 +158,13 @@ article.hotel p {
 
 .populaires h2 {
     margin-left: 1.2em;
+}
+
+.afficher {
+    margin: 0.75em;
+    margin-bottom: 1em;
+}
+
+article.hotel1 p {
+    font-size: 13px;
 }
