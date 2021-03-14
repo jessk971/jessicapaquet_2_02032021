@@ -200,3 +200,17 @@
                                                                     display: flex;
                                                                     justify-content: flex-start;
                                                                 }
+                                                                
+                                                                #block {
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                
+                                                                #block1 img {
+                                                                    border-radius: 10px 10px;
+                                                                }
+                                                                
+                                                                article.Activités {
+                                                                    background-color: white;
+                                                                }
