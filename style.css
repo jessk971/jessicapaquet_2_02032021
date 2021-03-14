@@ -1,177 +1,203 @@
-                                                                            #conteneur1 {
-                                                                            display: flex;
-                                                                            flex-wrap: wrap;
-                                                                            justify-content: space-between;
-                                                                        }
-                                                                        
-                                                                        .Hébergements {
-                                                                            background-color: #F2F2F2;
-                                                                            border-radius: 10px 10px;
-                                                                            background-size: 60%;
-                                                                            margin: 30px;
-                                                                            width: 60%;
-                                                                            padding-left: 0.5cm;
-                                                                            padding-right: 0.5cm;
-                                                                            margin-bottom: 1cm;
-                                                                        }
-                                                                        
-                                                                        #conteneur1 img {
-                                                                            border-radius: 20px 20px 0px 0px;
-                                                                            border: solid;
-                                                                            border-color: white;
-                                                                            width: 200px;
-                                                                            height: 110px;
-                                                                        }
-                                                                        
-                                                                        .menu ul {
-                                                                            list-style-type: none;
-                                                                            justify-content: flex-end;
-                                                                            display: flex;
-                                                                            flex-direction: row;
-                                                                            padding-right: 10px;
-                                                                        }
-                                                                        
-                                                                        a:hover {
-                                                                            color: #0065FC;
-                                                                        }
-                                                                        
-                                                                        nav li {
-                                                                            margin-left: 1.3em;
-                                                                        }
-                                                                        
-                                                                        h1 {
-                                                                            margin-top: -2em;
-                                                                            font-size: 16px;
-                                                                        }
-                                                                        
-                                                                        p {
-                                                                            font-size: 10px;
-                                                                            margin-top: 1em;
-                                                                        }
-                                                                        
-                                                                        article.hotel {
-                                                                            background-color: white;
-                                                                            border-radius: 20px 20px;
-                                                                            border-color: white;
-                                                                            margin-bottom: 10em;
-                                                                            margin: 0.5em;
-                                                                            text-align: left;
-                                                                        }
-                                                                        
-                                                                        h3 {
-                                                                            font-size: 14px;
-                                                                        }
-                                                                        
-                                                                        .imageflottante {
-                                                                            float: left;
-                                                                        }
-                                                                        
-                                                                        #conteneur2 {
-                                                                            display: flex;
-                                                                            flex-wrap: wrap;
-                                                                            justify-content: space-around;
-                                                                        }
-                                                                        
-                                                                        #conteneurs {
-                                                                            display: flex;
-                                                                            justify-content: space-betweens;
-                                                                            margin: 1.5em;
-                                                                            padding: 1em;
-                                                                        }
-                                                                        
-                                                                        article.hotel1 {
-                                                                            border-radius: 10px 10px;
-                                                                            background-color: white;
-                                                                            border: solid;
-                                                                            border-color: white;
-                                                                            width: 260px;
-                                                                            margin: 0.5em;
-                                                                            margin-bottom: 0.5cm;
-                                                                            margin-right: 0.25em;
-                                                                            text-align: left;
-                                                                        }
-                                                                        
-                                                                        .populaires {
-                                                                            background-color: #F2F2F2;
-                                                                            background-size: 30%;
-                                                                            width: 320px;
-                                                                            border-radius: 10px 10px;
-                                                                            margin-right: 0.25em;
-                                                                            padding-right: 0.5cm;
-                                                                            padding-right: 0.5cm;
-                                                                            margin-bottom: 2.2em;
-                                                                            margin-top: 1.9em;
-                                                                        }
-                                                                        
-                                                                        .populaires img {
-                                                                            border-radius: 20px 0px 0px 20px;
-                                                                            width: 130px;
-                                                                            height: 120px;
-                                                                        }
-                                                                        
-                                                                        img {
-                                                                            object-fit: cover;
-                                                                        }
-                                                                        
-                                                                        article p {
-                                                                            line-height: 1px;
-                                                                            margin-top: auto;
-                                                                        }
-                                                                        
-                                                                        footer {
-                                                                            background-color: #F2F2F2;
-                                                                        }
-                                                                        
-                                                                        footer ul {
-                                                                            list-style-type: none;
-                                                                            text-align: left;
-                                                                        }
-                                                                        
-                                                                        #footer {
-                                                                            display: flex;
-                                                                            flex-wrap: wrap;
-                                                                            justify-content: flex-start;
-                                                                        }
-                                                                        
-                                                                        .fin {
-                                                                            text-align: left;
-                                                                            margin-right: 3.5cm;
-                                                                        }
-                                                                        
-                                                                        .fin h3 {
-                                                                            margin-left: 1.6cm;
-                                                                        }
-                                                                        
-                                                                        article.hotel h3 {
-                                                                            margin-top: 0.2em;
-                                                                            margin-left: 0.5em;
-                                                                        }
-                                                                        
-                                                                        article.hotel p {
-                                                                            margin-left: 2em;
-                                                                            font-size: 13px;
-                                                                        }
-                                                                        
-                                                                        .Hébergements h2 {
-                                                                            margin-left: 0.35em;
-                                                                        }
-                                                                        
-                                                                        .populaires h2 {
-                                                                            margin-left: 1.2em;
-                                                                        }
-                                                                        
-                                                                        .afficher {
-                                                                            margin: 0.75em;
-                                                                            margin-bottom: 1em;
-                                                                        }
-                                                                        
-                                                                        article.hotel1 p {
-                                                                            font-size: 13px;
-                                                                        }
-                                                                        
-                                                                        #reservia img {
-                                                                            width: 50px 30px;
-                                                                            margin-left: 4.5em;
-                                                                            width: 80px;
-                                                                            margin-bottom: 2em;
-                                                                            margin-top: -1em;
+                                                                #conteneur1 {
+                                                                        display: flex;
+                                                                        flex-wrap: wrap;
+                                                                        justify-content: space-between;
+                                                                    }
+                                                                    
+                                                                    .Hébergements {
+                                                                        background-color: #F2F2F2;
+                                                                        border-radius: 10px 10px;
+                                                                        background-size: 60%;
+                                                                        margin: 30px;
+                                                                        width: 60%;
+                                                                        padding-left: 0.5cm;
+                                                                        padding-right: 0.5cm;
+                                                                        margin-bottom: 1cm;
+                                                                    }
+                                                                    
+                                                                    #conteneur1 img {
+                                                                        border-radius: 20px 20px 0px 0px;
+                                                                        border: solid;
+                                                                        border-color: white;
+                                                                        width: 200px;
+                                                                        height: 110px;
+                                                                    }
+                                                                    
+                                                                    .menu ul {
+                                                                        list-style-type: none;
+                                                                        justify-content: flex-end;
+                                                                        display: flex;
+                                                                        flex-direction: row;
+                                                                        padding-right: 10px;
+                                                                    }
+                                                                    
+                                                                    a:hover {
+                                                                        color: #0065FC;
+                                                                    }
+                                                                    
+                                                                    nav li {
+                                                                        margin-left: 1.3em;
+                                                                    }
+                                                                    
+                                                                    h1 {
+                                                                        margin-top: -2em;
+                                                                        font-size: 16px;
+                                                                    }
+                                                                    
+                                                                    p {
+                                                                        font-size: 10px;
+                                                                        margin-top: 1em;
+                                                                    }
+                                                                    
+                                                                    article.hotel {
+                                                                        background-color: white;
+                                                                        border-radius: 20px 20px;
+                                                                        border-color: white;
+                                                                        margin-bottom: 10em;
+                                                                        margin: 0.5em;
+                                                                        text-align: left;
+                                                                    }
+                                                                    
+                                                                    h3 {
+                                                                        font-size: 14px;
+                                                                    }
+                                                                    
+                                                                    .imageflottante {
+                                                                        float: left;
+                                                                    }
+                                                                    
+                                                                    #conteneur2 {
+                                                                        display: flex;
+                                                                        flex-wrap: wrap;
+                                                                        justify-content: space-around;
+                                                                    }
+                                                                    
+                                                                    #conteneurs {
+                                                                        display: flex;
+                                                                        justify-content: space-betweens;
+                                                                        margin: 1.5em;
+                                                                        padding: 1em;
+                                                                    }
+                                                                    
+                                                                    article.hotel1 {
+                                                                        border-radius: 10px 10px;
+                                                                        background-color: white;
+                                                                        border: solid;
+                                                                        border-color: white;
+                                                                        width: 260px;
+                                                                        margin: 0.5em;
+                                                                        margin-bottom: 0.5cm;
+                                                                        margin-right: 0.25em;
+                                                                        text-align: left;
+                                                                    }
+                                                                    
+                                                                    .populaires {
+                                                                        background-color: #F2F2F2;
+                                                                        background-size: 30%;
+                                                                        width: 320px;
+                                                                        border-radius: 10px 10px;
+                                                                        margin-right: 0.25em;
+                                                                        padding-right: 0.5cm;
+                                                                        padding-right: 0.5cm;
+                                                                        margin-bottom: 2.2em;
+                                                                        margin-top: 1.9em;
+                                                                    }
+                                                                    
+                                                                    .populaires img {
+                                                                        border-radius: 20px 0px 0px 20px;
+                                                                        width: 130px;
+                                                                        height: 120px;
+                                                                    }
+                                                                    
+                                                                    img {
+                                                                        object-fit: cover;
+                                                                    }
+                                                                    
+                                                                    article p {
+                                                                        line-height: 1px;
+                                                                        margin-top: auto;
+                                                                    }
+                                                                    
+                                                                    footer {
+                                                                        background-color: #F2F2F2;
+                                                                    }
+                                                                    
+                                                                    footer ul {
+                                                                        list-style-type: none;
+                                                                        text-align: left;
+                                                                    }
+                                                                    
+                                                                    #footer {
+                                                                        display: flex;
+                                                                        flex-wrap: wrap;
+                                                                        justify-content: flex-start;
+                                                                    }
+                                                                    
+                                                                    .fin {
+                                                                        text-align: left;
+                                                                        margin-right: 3.5cm;
+                                                                    }
+                                                                    
+                                                                    .fin h3 {
+                                                                        margin-left: 1.6cm;
+                                                                    }
+                                                                    
+                                                                    article.hotel h3 {
+                                                                        margin-top: 0.2em;
+                                                                        margin-left: 0.7em;
+                                                                    }
+                                                                    
+                                                                    article.hotel p {
+                                                                        margin-left: 0.7em;
+                                                                        font-size: 13px;
+                                                                    }
+                                                                    
+                                                                    .Hébergements h2 {
+                                                                        margin-left: 0.35em;
+                                                                    }
+                                                                    
+                                                                    .populaires h2 {
+                                                                        margin-left: 1.2em;
+                                                                    }
+                                                                    
+                                                                    .afficher {
+                                                                        margin: 0.75em;
+                                                                        margin-bottom: 1em;
+                                                                    }
+                                                                    
+                                                                    article.hotel1 p {
+                                                                        font-size: 13px;
+                                                                        margin-right: 1em;
+                                                                    }
+                                                                    
+                                                                    #reservia img {
+                                                                        width: 50px 30px;
+                                                                        margin-left: 4.5em;
+                                                                        width: 80px;
+                                                                        margin-bottom: 2em;
+                                                                        margin-top: -1em;
+                                                                    }
+                                                                    
+                                                                    h1 {
+                                                                        margin-left: 4.5em;
+                                                                        margin-top: -1em;
+                                                                    }
+                                                                    
+                                                                    header p {
+                                                                        margin-left: 7.3em;
+                                                                    }
+                                                                    
+                                                                    .recherche {
+                                                                        margin-left: 4.5em;
+                                                                    }
+                                                                    
+                                                                    .infos {
+                                                                        margin-left: 4.5em;
+                                                                    }
+                                                                    
+                                                                    .filtre ul {
+                                                                        list-style-type: none;
+                                                                        display: flex;
+                                                                        justify-content: flex-start;
+                                                                    }
+                                                                }
