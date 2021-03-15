@@ -103,6 +103,10 @@ article.hotel1 i {
     margin-top: 2em;
 }
 
+article.hotel i {
+    padding-right: -1em;
+}
+
 .populaires {
     background-color: #F2F2F2;
     background-size: 30%;
@@ -154,11 +158,13 @@ footer ul {
 article.hotel h3 {
     margin-top: 0.2em;
     font-size: 16px;
+    margin-left: 0.5em;
 }
 
 article.hotel p {
     margin-top: -1em;
     font-size: 13px;
+    margin-left: 0.6em;
 }
 
 .Hébergements h2 {
