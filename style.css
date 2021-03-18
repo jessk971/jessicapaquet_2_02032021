@@ -247,3 +247,25 @@ article.Activités h3 {
     margin-bottom: 0.5em;
     margin-top: -0.5em;
 }
+button {
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    height: 29px;
+    width: 110px;
+    border-style: none;
+}
+#site-search {
+    border-left: none;
+    border-right: none;
+    margin-right: -0.9em;
+    height: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2F2F2;
+}
+.fa-map-marker-alt {
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+}
