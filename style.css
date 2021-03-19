@@ -278,3 +278,45 @@ button {
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
 }
+.fa-money-bill-wave {
+    color: #0065FC;
+    border: solid;
+    border-color: transparent;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 0.3cm;
+}
+.fa-child {
+    color: #0065FC;
+    border: solid;
+    border-color: transparent;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 0.3cm;
+}
+.fa-heart {
+    color: #0065FC;
+    border: solid;
+    border-color: transparent;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 0.3cm;
+}
+.fa-dog {
+    color: #0065FC;
+    border: solid;
+    border-color: #DEEBFF;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 0.3cm;
+}
+.filter {
+    border: solid;
+    border-radius: 50px 50px 50px 50px;
+    border-left: transparent;
+    border-color: #b4afaf67;
+    border-width: 2px;
+    margin-right: 1em;
+    padding-right: 1.5em;
+    margin-left: 1em;
+}
