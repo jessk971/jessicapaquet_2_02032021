@@ -180,43 +180,40 @@ article.hotel p {
     margin-bottom: 1em;
 }
 
-;
-
-}
-#reservia img {
-    width: 50px 30px;
-    margin-left: 4.5em;
-    width: 80px;
-    margin-bottom: 2em;
-    margin-top: -1em;
-}
 h1 {
     margin-left: 4.5em;
     margin-top: -1em;
 }
+
 header p {
     margin-left: 7.3em;
 }
+
 .recherche {
     margin-left: 4.5em;
 }
+
 .infos {
     margin-left: 4.5em;
 }
+
 .filtre ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
 }
+
 article.Activités {
     background-color: white;
     box-shadow: 1px 1px 12px rgb(212, 211, 211);
     border-radius: 10px;
 }
+
 #block img {
     border-radius: 10px 10px 0px 0px;
     box-shadow: 1px 1px 1px rgb(212, 211, 211);
 }
+
 #block {
     display: flex;
     justify-content: space-between;
@@ -226,27 +223,33 @@ article.Activités {
     margin-bottom: 1em;
     margin-top: 1em;
 }
+
 article.Activités h3 {
     margin: 1em;
     margin-top: 0.5em;
     padding-bottom: 0.5em;
 }
+
 .Diverstisements h2 {
     margin-left: 2.7em;
     margin-top: -1em;
 }
+
 .block2 article {
     margin-bottom: 2em;
     margin-top: 0em;
 }
+
 .block4 article {
     margin-bottom: 2em;
 }
+
 .star {
     margin-left: 0.5em;
     margin-bottom: 0.5em;
     margin-top: -0.5em;
 }
+
 button {
     background-color: #0065FC;
     color: white;
@@ -255,6 +258,7 @@ button {
     width: 105px;
     border-style: none;
 }
+
 #site-search {
     border-left: none;
     border-right: none;
@@ -264,6 +268,7 @@ button {
     border-style: solid;
     border-color: #F2F2F2;
 }
+
 .fa-map-marker-alt {
     border-style: solid;
     width: 25px;
@@ -278,6 +283,7 @@ button {
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
 }
+
 .fa-money-bill-wave {
     color: #0065FC;
     border: solid;
@@ -286,6 +292,7 @@ button {
     border-radius: 50%;
     padding: 0.3cm;
 }
+
 .fa-child {
     color: #0065FC;
     border: solid;
@@ -294,6 +301,7 @@ button {
     border-radius: 50%;
     padding: 0.3cm;
 }
+
 .fa-heart {
     color: #0065FC;
     border: solid;
@@ -302,6 +310,7 @@ button {
     border-radius: 50%;
     padding: 0.3cm;
 }
+
 .fa-dog {
     color: #0065FC;
     border: solid;
@@ -313,6 +322,7 @@ button {
     padding-bottom: 0.3cm;
     padding-right: 0.3cm;
 }
+
 .filter {
     border: solid;
     border-radius: 50px 50px 50px 50px;
@@ -325,14 +335,35 @@ button {
     margin-left: 1em;
     padding-bottom: -1cm;
 }
+
 strong {
     margin-left: 0.5em;
     font-size: 15px;
 }
+
 #choix {
     margin-left: 2em;
 }
+
 #choix h3 {
     font-size: 15px;
     margin-right: 1em;
+}
+
+header p {
+    margin-left: 1.9cm;
+    margin-top: -0.2cm;
+    font-size: 14px;
+}
+
+header h1 {
+    margin-top: 1cm;
+}
+
+header img {
+    margin-left: 1.8cm;
+    width: 6.5%;
+    height: 20%;
+    margin-bottom: -1em;
+    margin-top: -1em;
 }
