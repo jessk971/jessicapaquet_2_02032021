@@ -372,7 +372,9 @@ header img {
 
 .menu a:hover {
     color: #0065FC;
-    text-decoration: underline transparent
+    text-decoration: underline transparent;
+    border-top: solid;
+    padding-top: 1.6cm;
 }
 
 .menu a {
