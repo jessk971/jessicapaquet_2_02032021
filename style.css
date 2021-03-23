@@ -369,3 +369,12 @@ header img {
 .menu {
     margin-top: 2cm;
 }
+
+.menu a:hover {
+    color: #0065FC;
+    text-decoration: underline transparent
+}
+
+.menu a {
+    color: black;
+}
