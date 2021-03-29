@@ -126,6 +126,10 @@ article.hotel i {
     border-right-width: 15px;
 }
 
+.fa-chart-line {
+    padding-left: 2.2em;
+}
+
 img {
     object-fit: cover;
 }
@@ -199,6 +203,7 @@ header p {
 .filtre ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
 }
 
