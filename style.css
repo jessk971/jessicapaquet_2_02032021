@@ -69,6 +69,7 @@ h3 {
 #conteneurs {
     display: flex;
     justify-content: space-betweens;
+    flex-wrap: wrap;
     margin: 1.5em;
     padding: 1em;
     margin-top: -0.7em;
