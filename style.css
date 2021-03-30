@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 1em;
 }
 
 .Hébergements {
@@ -19,8 +20,8 @@
     border-radius: 20px 20px 0px 0px;
     border: solid white;
     border-color: white;
-    width: 210px;
-    height: 110px;
+    width: 250px;
+    height: 130px;
 }
 
 .menu ul {
@@ -45,8 +46,7 @@ article.hotel {
     background-color: white;
     border-radius: 20px 20px;
     border-color: white;
-    margin-bottom: 10em;
-    margin: 0.5em;
+    margin-bottom: 2em;
     text-align: left;
     box-shadow: 1px 1px 12px rgb(212, 211, 211);
     border: solid white;
@@ -179,8 +179,8 @@ article.hotel p {
 }
 
 .afficher {
-    margin: 0.75em;
-    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-bottom: 2em;
 }
 
 h1 {
