@@ -176,6 +176,7 @@ article.hotel p {
 
 .populaires h2 {
     margin-left: 1.2em;
+    font-size: 22px;
 }
 
 .afficher {
@@ -398,4 +399,8 @@ header img {
     justify-content: space-evenly;
     flex-direction: row-reverse;
     margin-bottom: 1em;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
 }
