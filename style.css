@@ -171,7 +171,7 @@ article.hotel p {
 }
 
 .Hébergements h2 {
-    margin-left: 0.35em;
+    margin-left: 0.8em;
 }
 
 .populaires h2 {
@@ -198,6 +198,7 @@ header p {
 
 .infos {
     margin-left: 4.5em;
+    margin-top: 2em;
 }
 
 .filtre ul {
@@ -294,7 +295,8 @@ button {
     border-color: transparent;
     background-color: #DEEBFF;
     border-radius: 50%;
-    padding: 0.3cm;
+    padding: 0.4cm;
+    margin-top: -0.4em;
 }
 
 .fa-child {
@@ -304,6 +306,10 @@ button {
     background-color: #DEEBFF;
     border-radius: 50%;
     padding: 0.3cm;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.9em;
+    margin-top: -0.2em;
 }
 
 .fa-heart {
@@ -312,7 +318,8 @@ button {
     border-color: transparent;
     background-color: #DEEBFF;
     border-radius: 50%;
-    padding: 0.3cm;
+    padding: 0.4cm;
+    margin-top: -0.4em;
 }
 
 .fa-dog {
@@ -321,10 +328,8 @@ button {
     border-color: #DEEBFF;
     background-color: #DEEBFF;
     border-radius: 50%;
-    padding-left: 0.3cm;
-    padding-top: 0.3cm;
-    padding-bottom: 0.3cm;
-    padding-right: 0.3cm;
+    padding: 0.9em;
+    margin-top: -0.3em;
 }
 
 .filter {
@@ -342,7 +347,7 @@ button {
 
 strong {
     margin-left: 0.5em;
-    font-size: 15px;
+    font-size: 21px;
 }
 
 #choix {
@@ -350,8 +355,9 @@ strong {
 }
 
 #choix h3 {
-    font-size: 15px;
+    font-size: 21px;
     margin-right: 1em;
+    margin-top: 0.5em;
 }
 
 header p {
