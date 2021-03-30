@@ -409,3 +409,5 @@ body {
 strong:hover {
     color: #0065FC;
 }
+
+@media screen and (max-width: 960px)
