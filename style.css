@@ -469,6 +469,9 @@
                     background-color: white;
                     background-size: 100%;
                 }
+                .Hébergements h2 {
+                    font-size: 44px;
+                }
                 #conteneur1 img {
                     border-radius: 40px 40px 0px 0px;
                     border: solidwhite 7px;
@@ -511,14 +514,22 @@
                     flex-wrap: wrap;
                     flex-direction: column;
                     background-color: #F2F2F2;
+                    margin-top: 3em;
                 }
                 #footer h3 {
                     font-size: 30px;
+                    margin-left: 2em;
                 }
                 #footer ul {
                     font-size: 23px;
                 }
                 .fin {
                     margin-bottom: 1em;
+                }
+                header h1 {
+                    font-size: 46px;
+                    margin-block-start: auto;
+                    margin-inline-start: auto;
+                    margin-left: 1.5em;
                 }
             }
