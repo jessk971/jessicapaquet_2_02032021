@@ -532,4 +532,17 @@
                     margin-inline-start: auto;
                     margin-left: 1.5em;
                 }
+                header p {
+                    font-size: 20px;
+                }
+                #site-search {
+                    border-left: none;
+                    border-right: none;
+                    margin-right: -0.9em;
+                    width: 700px;
+                    height: 60PX;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: #F2F2F2;
+                }
             }
