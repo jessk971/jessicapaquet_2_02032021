@@ -183,6 +183,8 @@
         .afficher {
             margin-left: 1em;
             margin-bottom: 2em;
+            font-weight: bold;
+            font-size: 20px;
         }
         
         h1 {
@@ -426,6 +428,7 @@
                 margin: 0;
                 width: 100%;
                 padding-left: 2.5em;
+                background-color: transparent;
             }
             article.hotel1 {
                 box-shadow: 1px 1px 12px rgb(212, 211, 211);
@@ -440,5 +443,8 @@
             }
             .Hébergements h2 {
                 margin-left: -0.5em;
+            }
+            .afficher {
+                margin-left: -0.6em;
             }
         }
