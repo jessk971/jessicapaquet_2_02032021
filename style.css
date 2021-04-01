@@ -274,6 +274,7 @@ button {
     border-width: 1px;
     border-style: solid;
     border-color: #F2F2F2;
+    padding-left: 1em;
 }
 
 .fa-map-marker-alt {
