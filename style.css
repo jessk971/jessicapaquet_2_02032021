@@ -418,7 +418,7 @@
                 flex-direction: column-reverse;
             }
             .populaires {
-                background-size: 100%;
+                width: 100%;
             }
             #conteneur1 {
                 flex-direction: column;
@@ -428,7 +428,7 @@
                 margin: 0;
                 width: 100%;
                 padding-left: 2.5em;
-                background-color: transparent;
+                background-color: #F2F2F2;
             }
             article.hotel1 {
                 box-shadow: 1px 1px 12px rgb(212, 211, 211);
@@ -457,5 +457,16 @@
             #block1 {
                 padding-top: 1em;
                 padding-block-end: 1.5em;
+            }
+            footer {
+                flex-direction: column;
+                width: 100%;
+            }
+            footer ul {
+                margin-left: 1em;
+            }
+            .populaires img {
+                width: 150px;
+                height: 150px;
             }
         }
