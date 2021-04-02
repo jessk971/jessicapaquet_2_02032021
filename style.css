@@ -447,4 +447,15 @@
             .afficher {
                 margin-left: -0.6em;
             }
+            #block {
+                flex-direction: column;
+            }
+            #block img {
+                width: 280px;
+                height: 95px;
+            }
+            #block1 {
+                padding-top: 1em;
+                padding-block-end: 1.5em;
+            }
         }
