@@ -430,7 +430,7 @@
                 margin: 0;
                 width: 100%;
                 padding-left: 2.5em;
-                background-color: #F2F2F2;
+                background-color: transparent;
             }
             article.hotel1 {
                 box-shadow: 1px 1px 12px rgb(212, 211, 211);
@@ -486,5 +486,12 @@
             }
             .fa-chart-line {
                 padding-left: 2.2em;
+            }
+            .fin {
+                margin: inherit;
+            }
+            .fin h3 {
+                margin-right: 1em;
+                padding-left: 0.9em;
             }
         }
