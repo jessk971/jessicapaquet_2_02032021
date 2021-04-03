@@ -81,7 +81,7 @@
             background-color: white;
             border: solid;
             border-color: white;
-            width: 290px;
+            width: 330px;
             margin: 1em;
             margin-bottom: 1.5em;
             margin-right: 0.25em;
@@ -127,7 +127,7 @@
         }
         
         .fa-chart-line {
-            padding-left: 2.2em;
+            padding-left: 3.4em;
         }
         
         img {
@@ -419,12 +419,14 @@
             }
             .populaires {
                 width: 100%;
+                padding-left: 2.2em;
+                margin-right: 9em;
+                padding-bottom: 1em;
             }
             #conteneur1 {
                 flex-direction: column;
             }
             .Hébergements {
-                background-size: 100%;
                 margin: 0;
                 width: 100%;
                 padding-left: 2.5em;
@@ -432,6 +434,11 @@
             }
             article.hotel1 {
                 box-shadow: 1px 1px 12px rgb(212, 211, 211);
+                width: 320px;
+                height: 120px;
+                margin-left: -0.7em;
+                margin-top: 0.1em;
+                margin-bottom: 0.6em;
             }
             #conteneur1 img {
                 width: 280px;
@@ -466,7 +473,18 @@
                 margin-left: 1em;
             }
             .populaires img {
-                width: 150px;
-                height: 150px;
+                width: 115px;
+                height: 115px;
+            }
+            article.hotel1 p {
+                margin-bottom: 0.2em;
+            }
+            .populaires h2 {
+                margin-left: -0.5em;
+                margin-bottom: 1em;
+                margin-top: 1em;
+            }
+            .fa-chart-line {
+                padding-left: 2.2em;
             }
         }
