@@ -432,12 +432,14 @@
             }
             #conteneur1 {
                 flex-direction: column;
+                width: 100%;
             }
             .Hébergements {
-                margin: 0;
+                margin: inherit;
                 width: 100%;
                 padding-left: inherit;
                 background-color: transparent;
+                padding-right: 3em;
             }
             article.hotel1 {
                 box-shadow: 1px 1px 12px rgb(212, 211, 211);
@@ -447,18 +449,18 @@
                 margin-bottom: 1em;
             }
             #conteneur1 img {
-                width: 280px;
-                height: 95px;
+                width: 325px;
+                height: 110px;
             }
             article.hotel {
-                margin-right: 1em;
-                margin-left: -1.9em;
+                margin-right: auto;
+                margin-left: 1.4em;
             }
             .Hébergements h2 {
-                margin-left: -0.5em;
+                margin-left: 1.8em;
             }
             .afficher {
-                margin-left: -0.6em;
+                margin-left: 2.2em;
             }
             #block {
                 flex-direction: column;
@@ -484,11 +486,8 @@
                 flex-direction: column;
             }
             .populaires img {
-                width: 115px;
-                height: 115px;
-            }
-            article.hotel1 p {
-                margin-bottom: 0.2em;
+                width: 140px;
+                height: 140px;
             }
             .populaires h2 {
                 margin: auto;
@@ -536,5 +535,8 @@
             }
             strong {
                 font-size: small;
+            }
+            .star2 {
+                margin-top: 1.5em;
             }
         }
