@@ -464,10 +464,11 @@
             }
             #block {
                 flex-direction: column;
+                margin-left: 2.8em;
             }
             #block img {
-                width: 280px;
-                height: 95px;
+                width: 325px;
+                height: 110px;
             }
             #block1 {
                 padding-top: 1em;
@@ -538,5 +539,11 @@
             }
             .star2 {
                 margin-top: 1.5em;
+            }
+            .Diverstisements {
+                width: 100%;
+            }
+            .Diverstisements h2 {
+                margin-left: 1.9em;
             }
         }
