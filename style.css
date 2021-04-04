@@ -475,6 +475,7 @@
             }
             footer ul {
                 margin-left: 1em;
+                display: initial;
             }
             .populaires img {
                 width: 115px;
@@ -520,5 +521,8 @@
             #site-search {
                 width: 170px;
                 border-right: none;
+            }
+            strong {
+                font-size: small;
             }
         }
