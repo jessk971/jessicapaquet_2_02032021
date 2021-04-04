@@ -500,6 +500,9 @@
             }
             .infos {
                 margin-top: 3em;
+                margin: inherit;
+                margin-top: 2em;
+                padding-left: 2.9em;
             }
             .fa-search {
                 visibility: visible;
