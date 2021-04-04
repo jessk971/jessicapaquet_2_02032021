@@ -420,6 +420,9 @@
         @media screen and (max-width: 980px) {
             #conteneurs {
                 flex-direction: column-reverse;
+                width: 100%;
+                margin-left: initial;
+                padding-left: initial;
             }
             .populaires {
                 width: 100%;
@@ -433,16 +436,15 @@
             .Hébergements {
                 margin: 0;
                 width: 100%;
-                padding-left: 2.5em;
+                padding-left: inherit;
                 background-color: transparent;
             }
             article.hotel1 {
                 box-shadow: 1px 1px 12px rgb(212, 211, 211);
-                width: 320px;
-                height: 120px;
+                width: 337px;
                 margin-left: -0.7em;
                 margin-top: 0.1em;
-                margin-bottom: 0.6em;
+                margin-bottom: 1em;
             }
             #conteneur1 img {
                 width: 280px;
@@ -472,10 +474,14 @@
             footer {
                 flex-direction: column;
                 width: 100%;
+                padding-bottom: 1em;
+                padding-right: 1em;
+                margin-left: auto;
             }
             footer ul {
                 margin-left: 1em;
                 display: initial;
+                flex-direction: column;
             }
             .populaires img {
                 width: 115px;
@@ -485,19 +491,25 @@
                 margin-bottom: 0.2em;
             }
             .populaires h2 {
-                margin-left: -0.5em;
+                margin: auto;
+                margin-left: 0.5em;
                 margin-bottom: 1em;
                 margin-top: 1em;
             }
             .fa-chart-line {
-                padding-left: 2.2em;
+                padding-left: 4.5em;
             }
             .fin {
                 margin: inherit;
+                margin-left: 3.5em;
+                margin-bottom: 1em
             }
             .fin h3 {
                 margin-right: 1em;
-                padding-left: 0.9em;
+                padding-left: 0.8em;
+                margin-left: 0.5em;
+                margin-bottom: -0.5em;
+                font-size: medium;
             }
             .infos {
                 margin-top: 3em;
