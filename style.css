@@ -548,7 +548,6 @@ strong:hover {
     }
     .filtre ul {
         width: 100%;
-        display: grid;
     }
     .filter {
         display: list-item;
@@ -565,5 +564,19 @@ strong:hover {
         margin-left: -1.5em;
         padding-right: 0.1em;
         border-radius: 12px 0px 0px 12px;
+    }
+    header {
+        width: 100%;
+    }
+    header h1 {
+        margin-left: 3em;
+        padding-right: 1em;
+        font-size: larger;
+    }
+    header p {
+        margin-left: 4em;
+    }
+    #choix h3 {
+        margin-left: 1em;
     }
 }
