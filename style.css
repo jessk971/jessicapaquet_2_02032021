@@ -579,4 +579,14 @@ strong:hover {
     #choix h3 {
         margin-left: 1em;
     }
+    #containerhead {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .menu ul {
+        margin: auto;
+    }
+    header img {
+        width: auto;
+    }
 }
