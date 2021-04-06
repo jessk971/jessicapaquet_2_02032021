@@ -530,7 +530,7 @@ strong:hover {
         display: none;
     }
     #site-search {
-        width: 200px;
+        width: 250px;
         height: 35px;
         border-right: none;
     }
@@ -581,12 +581,16 @@ strong:hover {
     }
     #containerhead {
         width: 100%;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
     }
     .menu ul {
         margin: auto;
+        flex-direction: column-reverse;
     }
     header img {
-        width: auto;
+        width: 20%;
+    }
+    .border {
+        justify-content: space-between;
     }
 }
