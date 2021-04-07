@@ -8,7 +8,6 @@
 .Hébergements {
     background-color: #F2F2F2;
     border-radius: 10px 10px;
-    background-size: 60%;
     margin: 30px;
     width: 66%;
     padding-left: 0.5cm;
@@ -24,13 +23,11 @@
     height: 130px;
 }
 
-.menu ul {
+#containerhead ul {
     list-style-type: none;
     justify-content: flex-end;
     display: flex;
     flex-direction: row;
-    padding-right: 10px;
-    margin-left: 50em;
 }
 
 nav li {
@@ -71,9 +68,6 @@ h3 {
     display: flex;
     justify-content: space-betweens;
     flex-wrap: wrap;
-    margin: 1.5em;
-    padding: 1em;
-    margin-top: -0.7em;
 }
 
 article.hotel1 {
@@ -375,25 +369,22 @@ header h1 {
     margin-top: 1em;
 }
 
-header img {
+#containerhead nav {
+    flex: auto;
+}
+
+#containerhead img {
     height: 30px;
-    margin-top: 1em;
-    padding-left: 1.6em;
 }
 
-.menu {
-    margin-top: 1em;
-    margin-left: 4em;
-}
-
-.menu a:hover {
+#containerhead a:hover {
     color: #0065FC;
     text-decoration: underline transparent;
     border-top: solid;
     padding-top: 1em;
 }
 
-.menu a {
+#containerhead a {
     color: black;
 }
 
@@ -403,6 +394,9 @@ header img {
     justify-content: space-evenly;
     flex-direction: row-reverse;
     margin-bottom: 1em;
+    margin-left: 4.5em;
+    margin-right: 1em;
+    margin-top: 1em;
 }
 
 body {
@@ -415,6 +409,25 @@ strong:hover {
 
 .fa-search {
     visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .Hébergements {
+        width: 50%;
+    }
+    .populaires {
+        width: 37%;
+    }
+    #conteneur1 img {
+        width: 210px;
+        height: 110px;
+    }
+    fa-chart-line {
+        padding-left: 4em;
+    }
+    .populaires h2 {
+        margin-left: 1.5em;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -583,14 +596,11 @@ strong:hover {
         width: 100%;
         flex-direction: row-reverse;
     }
-    .menu ul {
+    #containerhead ul {
         margin: auto;
         flex-direction: column-reverse;
     }
     header img {
         width: 20%;
-    }
-    .border {
-        justify-content: space-between;
     }
 }
