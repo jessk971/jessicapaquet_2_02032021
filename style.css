@@ -204,6 +204,7 @@ header p {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    padding-left: 2.5em;
 }
 
 article.Activités {
@@ -257,7 +258,7 @@ button {
     background-color: #0065FC;
     color: white;
     border-radius: 0px 10px 10px 0px;
-    height: 35px;
+    height: 40px;
     width: 105px;
     border-style: none;
 }
@@ -266,7 +267,8 @@ button {
     border-left: none;
     border-right: none;
     margin-right: -0.9em;
-    height: 31px;
+    height: 37px;
+    width: 200px;
     border-width: 1px;
     border-style: solid;
     border-color: #F2F2F2;
@@ -277,15 +279,16 @@ button {
     border-style: solid;
     width: 25px;
     height: 10.5px;
-    padding-left: 1em;
-    padding-top: 0.45em;
+    padding-left: 1.2em;
+    padding-top: 0.59em;
     margin-bottom: 1em;
     border-width: 1px;
-    padding-bottom: 1em;
+    padding-bottom: 1.15em;
     margin-right: -0.3em;
     border-color: #F2F2F2;
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
+    padding-right: 0.3em;
 }
 
 .fa-money-bill-wave {
@@ -346,7 +349,6 @@ button {
 
 strong {
     margin-left: 0.5em;
-    font-size: 21px;
 }
 
 #choix {
@@ -354,9 +356,8 @@ strong {
 }
 
 #choix h3 {
-    font-size: 21px;
+    font-size: 16px;
     margin-right: 1em;
-    margin-top: 0.5em;
 }
 
 header p {
@@ -411,6 +412,21 @@ strong:hover {
     visibility: hidden;
 }
 
+@media screen and (min-width:1024px) and (max-width:1360px) {
+    .Hébergements {
+        width: 55%;
+    }
+    .populaires {
+        width: 30%;
+    }
+    #conteneur1 img {
+        width: 220px;
+    }
+    .fa-chart-line {
+        padding-left: 2em;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .Hébergements {
         width: 50%;
@@ -427,6 +443,30 @@ strong:hover {
     }
     .populaires h2 {
         margin-left: 1.5em;
+    }
+    #block1 img {
+        width: 230px;
+    }
+    .block2 img {
+        width: 230px;
+    }
+    .block3 img {
+        width: 230px;
+    }
+    .block4 img {
+        width: 230px;
+    }
+    #block {
+        margin-left: 2em;
+        margin-right: 0em;
+    }
+    .fin {
+        margin-right: 4em;
+    }
+    .Diverstisements h2 {
+        margin-left: 1.5em;
+        margin-bottom: 1em;
+        margin-top: 1em;
     }
 }
 
@@ -598,7 +638,9 @@ strong:hover {
     }
     #containerhead ul {
         margin: auto;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        position: absolute;
     }
     header img {
         width: 20%;
