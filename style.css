@@ -643,6 +643,7 @@ strong:hover {
         margin-left: 2em;
         padding-top: 2em;
         padding-bottom: 2em;
+        border-bottom: 3px solid #F2F2F2;
     }
     #containerhead ul {
         flex-wrap: wrap-reverse;
@@ -662,15 +663,25 @@ strong:hover {
         font-size: medium;
         position: absolute;
         left: 2em;
-        bottom: 1em;
+        bottom: -0.2em;
+        padding: 1em;
     }
     .home1 {
         position: absolute;
         font-size: medium;
-        bottom: 1em;
+        bottom: -0.2em;
         left: 13em;
+        padding: 1em;
     }
     #containerhead a.register:hover {
-        border-top: none;
+        border-top: hidden;
+    }
+    #containerhead a.home1:hover {
+        border-top: hidden;
+        border-bottom: solid #0065FC;
+    }
+    #containerhead a.home:hover {
+        border-top: hidden;
+        border-bottom: solid #0065FC;
     }
 }
