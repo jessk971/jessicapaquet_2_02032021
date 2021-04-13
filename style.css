@@ -704,3 +704,15 @@ strong:hover {
         padding-left: 4em;
     }
 }
+
+@media(max-device-width: 425px) {
+    .filtre ul {
+        flex-direction: column;
+        padding-left: 00.5em;
+    }
+    .filter {
+        margin-bottom: 1em;
+        margin-right: 6em;
+        width: 180px;
+    }
+}
