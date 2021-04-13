@@ -422,12 +422,9 @@ strong:hover {
     #conteneur1 img {
         width: 220px;
     }
-    .fa-chart-line {
-        padding-left: 2em;
-    }
 }
 
-@media screen and (max-width: 1024px) {
+@media(max-width: 1024px) {
     .Hébergements {
         width: 50%;
     }
@@ -439,7 +436,7 @@ strong:hover {
         height: 110px;
     }
     fa-chart-line {
-        padding-left: 4em;
+        padding-left: 4.5em;
     }
     .populaires h2 {
         margin-left: 1.5em;
@@ -468,9 +465,12 @@ strong:hover {
         margin-bottom: 1em;
         margin-top: 1em;
     }
+    #containerhead img {
+        margin-top: 0.5em;
+    }
 }
 
-@media screen and (max-width: 980px) {
+@media(max-width: 980px) {
     #conteneurs {
         flex-direction: column-reverse;
         width: 100%;
@@ -479,20 +479,16 @@ strong:hover {
     }
     .populaires {
         width: 100%;
-        padding-left: 2.2em;
-        margin-right: 9em;
         padding-bottom: 1em;
     }
     #conteneur1 {
-        flex-direction: column;
-        width: 100%;
+        margin-left: 3.5em;
     }
     .Hébergements {
         margin: inherit;
         width: 100%;
         padding-left: inherit;
         background-color: transparent;
-        padding-right: 3em;
     }
     article.hotel1 {
         box-shadow: 1px 1px 12px rgb(212, 211, 211);
@@ -510,13 +506,14 @@ strong:hover {
         margin-left: 1.4em;
     }
     .Hébergements h2 {
-        margin-left: 1.8em;
+        margin-left: 3.5em;
     }
     .afficher {
-        margin-left: 2.2em;
+        margin-left: 4em;
     }
     #block {
-        flex-direction: column;
+        padding-left: 3em;
+        padding-right: 4em;
         margin-left: 2.8em;
     }
     #block img {
@@ -544,16 +541,14 @@ strong:hover {
         height: 140px;
     }
     .populaires h2 {
-        margin: auto;
-        margin-left: 0.5em;
+        margin-left: 3em;
         margin-bottom: 1em;
         margin-top: 1em;
     }
     .fa-chart-line {
-        padding-left: 4.5em;
+        padding-left: 26em;
     }
     .fin {
-        margin: inherit;
         margin-left: 2em;
         margin-bottom: 1em
     }
@@ -583,7 +578,7 @@ strong:hover {
         display: none;
     }
     #site-search {
-        width: 250px;
+        width: 240px;
         height: 35px;
         border-right: none;
     }
@@ -597,7 +592,7 @@ strong:hover {
         width: 100%;
     }
     .Diverstisements h2 {
-        margin-left: 1.9em;
+        margin-left: 3.5em;
     }
     .filtre ul {
         width: 100%;
@@ -632,9 +627,30 @@ strong:hover {
     #choix h3 {
         margin-left: 1em;
     }
+    #containerhead {
+        margin-left: 3.5em;
+    }
+    #containerhead img {
+        margin-top: 0.5em;
+    }
 }
 
-@media screen and (max-device-width: 480px) {
+@media(max-device-width: 768px) {
+    #conteneur1 img {
+        width: 300px;
+    }
+    #conteneur1 {
+        margin-left: 0;
+    }
+    .fa-chart-line {
+        padding-left: 19em;
+    }
+    #block {
+        justify-content: center;
+    }
+}
+
+@media(max-device-width: 480px) {
     #containerhead {
         width: 100%;
         flex-direction: row-reverse;
@@ -683,5 +699,8 @@ strong:hover {
     #containerhead a.home:hover {
         border-top: hidden;
         border-bottom: solid #0065FC;
+    }
+    .fa-chart-line {
+        padding-left: 4em;
     }
 }
