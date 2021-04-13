@@ -716,3 +716,12 @@ strong:hover {
         width: 180px;
     }
 }
+
+@media(max-device-width: 375px) {
+    .populaires {
+        margin-left: 1.5em;
+    }
+    .populaires h2 {
+        margin-left: 1em;
+    }
+}
