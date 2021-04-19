@@ -711,41 +711,16 @@ strong:hover {
 @media(max-width: 425px) {
     .filtre ul {
         flex-direction: column;
-        padding: 0;
+        padding-left: 0.5em;
     }
     .filter {
         margin-bottom: 1em;
         margin-right: 6em;
         width: 180px;
     }
-    .populaires {
-        padding: 0;
-        margin: 0;
-    }
-    #conteneur1 {
-        padding: 0;
-    }
-    #containerhead {
-        margin: 0;
-    }
-    body {
-        margin: 0;
-    }
-    .recherche {
-        margin: 0;
-    }
-    .Hébergements {
-        padding: 0;
-    }
-    #conteneur1 {
-        padding: 0;
-    }
-    footer {
-        padding: 0;
-    }
 }
 
-@media(max-width: 375px) {
+@media(max-device-width: 375px) {
     .populaires {
         margin-left: 1.5em;
     }
@@ -760,6 +735,9 @@ strong:hover {
     #conteneur2 {
         padding: 0;
         margin-bottom: 1em;
+    }
+    #footer {
+        padding: 0;
     }
     #block {
         width: 100%;
@@ -781,6 +759,8 @@ strong:hover {
         margin-left: 1.2em;
     }
     .populaires {
+        padding: 0;
+        margin: 0;
         margin-top: 1em;
     }
     .filtre ul {
@@ -855,7 +835,4 @@ strong:hover {
     header p {
         margin-left: 1.4em;
     }
-}
-
-
 }
