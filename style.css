@@ -708,15 +708,40 @@ strong:hover {
     }
 }
 
-@media(max-width: 425px) {
+@media(max-device-width: 425px) {
     .filtre ul {
         flex-direction: column;
-        padding-left: 0.5em;
+        padding: 0;
     }
     .filter {
         margin-bottom: 1em;
         margin-right: 6em;
         width: 180px;
+    }
+    .populaires {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        margin: 0;
+    }
+    .Hébergements {
+        padding: 0;
+    }
+    #conteneur1 {
+        padding: 0;
+    }
+    footer {
+        padding: 0;
+    }
+    #block {
+        padding: 0;
+        margin: 0;
+    }
+    .fa-chart-line {
+        padding: 0;
+        float: right;
+        margin-right: 2em;
     }
 }
 
