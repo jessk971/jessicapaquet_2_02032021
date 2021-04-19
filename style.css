@@ -711,16 +711,41 @@ strong:hover {
 @media(max-width: 425px) {
     .filtre ul {
         flex-direction: column;
-        padding-left: 0.5em;
+        padding: 0;
     }
     .filter {
         margin-bottom: 1em;
         margin-right: 6em;
         width: 180px;
     }
+    .populaires {
+        padding: 0;
+        margin: 0;
+    }
+    #conteneur1 {
+        padding: 0;
+    }
+    #containerhead {
+        margin: 0;
+    }
+    body {
+        margin: 0;
+    }
+    .recherche {
+        margin: 0;
+    }
+    .Hébergements {
+        padding: 0;
+    }
+    #conteneur1 {
+        padding: 0;
+    }
+    footer {
+        padding: 0;
+    }
 }
 
-@media(max-device-width: 375px) {
+@media(max-width: 375px) {
     .populaires {
         margin-left: 1.5em;
     }
@@ -730,12 +755,11 @@ strong:hover {
     .fa-chart-line {
         padding-left: 0;
         float: right;
+        padding-right: 1em;
     }
     #conteneur2 {
         padding: 0;
-    }
-    #footer {
-        padding: 0;
+        margin-bottom: 1em;
     }
     #block {
         width: 100%;
@@ -748,6 +772,7 @@ strong:hover {
     .afficher {
         margin: 0;
         margin-left: 1.2em;
+        margin-bottom: 1em;
     }
     .Hébergements {
         padding: 0;
@@ -756,15 +781,13 @@ strong:hover {
         margin-left: 1.2em;
     }
     .populaires {
-        padding: 0;
-        margin: 0;
         margin-top: 1em;
     }
     .filtre ul {
         padding: 0;
     }
     #site-search {
-        width: 200px;
+        width: 230px;
         padding-right: 1em;
     }
     #containerhead {
@@ -779,4 +802,60 @@ strong:hover {
     .recherche {
         margin: 0;
     }
+    #conteneur1 img {
+        width: 325px;
+    }
+    #conteneur1 {
+        padding: 0;
+    }
+    article.hotel1 {
+        margin-left: 0.5em;
+        margin-bottom: 1em;
+    }
+    article.hotel {
+        margin-bottom: 1em;
+    }
+    .infos {
+        padding-left: 1.1em;
+        margin-bottom: 1em;
+    }
+    #block1 {
+        padding-bottom: 0;
+    }
+    .block4 article {
+        margin-bottom: 0;
+    }
+    .block2 article {
+        margin-bottom: 0;
+    }
+    .fin {
+        margin-left: 0.5em;
+    }
+    #block {
+        margin-bottom: 2em;
+    }
+    #footer {
+        line-height: 1.5em;
+    }
+    #choix {
+        margin-left: 0;
+    }
+    #choix h3 {
+        margin-left: 1.5em;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .fa-map-marker-alt {
+        margin-left: 1em;
+    }
+    header h1 {
+        margin-left: 1em;
+        padding-right: 4em;
+    }
+    header p {
+        margin-left: 1.4em;
+    }
+}
+
+
 }
