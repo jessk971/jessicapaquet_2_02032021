@@ -651,6 +651,21 @@ strong:hover {
     nav.home {
         width: 50%;
     }
+    .populaires {
+        padding: 0;
+    }
+    body {
+        margin: 0;
+    }
+    footer {
+        padding: 0;
+    }
+    .filtre ul {
+        padding: 0;
+    }
+    .recherche {
+        margin: 0;
+    }
 }
 
 @media(max-width: 480px) {
@@ -712,6 +727,7 @@ strong:hover {
     .filtre ul {
         flex-direction: column;
         padding: 0;
+        margin-top: 0;
     }
     .filter {
         margin-bottom: 1em;
@@ -720,7 +736,7 @@ strong:hover {
     }
     .populaires {
         padding: 0;
-        margin: 0;
+        margin-right: 0;
     }
     body {
         margin: 0;
@@ -737,11 +753,76 @@ strong:hover {
     #block {
         padding: 0;
         margin: 0;
+        margin-bottom: 1em;
     }
     .fa-chart-line {
         padding: 0;
         float: right;
         margin-right: 2em;
+    }
+    #containerhead {
+        margin-left: 0;
+    }
+    .recherche {
+        margin-left: 1.5em;
+    }
+    #site-search {
+        width: 240px;
+    }
+    .populaires h2 {
+        margin-left: 2em;
+    }
+    article.hotel1 {
+        margin-left: 0;
+    }
+    #conteneur2 {
+        margin-bottom: 1em;
+    }
+    #conteneur1 img {
+        width: 335px;
+    }
+    .Hébergements h2 {
+        margin-left: 2em;
+    }
+    article.hotel {
+        margin-left: 2.5em;
+        margin-bottom: 1em;
+    }
+    .afficher {
+        margin-left: 2.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .Diverstisements h2 {
+        margin-left: 2em;
+    }
+    #block img {
+        width: 335px;
+    }
+    #block1 {
+        padding: 0;
+    }
+    .block2 article {
+        margin: 0;
+    }
+    .block4 article {
+        margin: 0;
+    }
+    #choix h3 {
+        margin-left: 1.5em;
+        margin-bottom: 0;
+    }
+    .fa-map-marker-alt {
+        margin-left: 2.6em;
+    }
+    .recherche {
+        margin: 0;
+    }
+    header h1 {
+        margin-left: 2.4em;
+    }
+    header p {
+        margin-left: 3.3em;
     }
 }
 
@@ -754,8 +835,8 @@ strong:hover {
     }
     .fa-chart-line {
         padding-left: 0;
-        float: right;
         padding-right: 1em;
+        margin: 0;
     }
     #conteneur2 {
         padding: 0;
@@ -819,6 +900,7 @@ strong:hover {
     }
     article.hotel {
         margin-bottom: 1em;
+        margin-left: 1.5em;
     }
     .infos {
         padding-left: 1.1em;
