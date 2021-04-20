@@ -643,7 +643,8 @@ strong:hover {
         margin-left: 0;
     }
     .fa-chart-line {
-        padding-left: 19em;
+        padding: 0;
+        float: right;
     }
     #block {
         justify-content: center;
