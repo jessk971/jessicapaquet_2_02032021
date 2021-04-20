@@ -666,6 +666,12 @@ strong:hover {
     .recherche {
         margin: 0;
     }
+    .fa-map-marker-alt {
+        margin-left: 2.5em;
+    }
+    .Hébergements {
+        padding: 0;
+    }
 }
 
 @media(max-width: 480px) {
