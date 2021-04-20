@@ -673,6 +673,10 @@ strong:hover {
     .Hébergements {
         padding: 0;
     }
+    article.hotel1 {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
 }
 
 @media(max-width: 480px) {
