@@ -783,6 +783,12 @@ strong:hover {
     }
 }
 
+@media(max-width:680px) {
+    #conteneur1 {
+        justify-content: center;
+    }
+}
+
 @media(max-width: 480px) {
     #containerhead {
         width: 100%;
