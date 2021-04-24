@@ -301,7 +301,7 @@ button {
     border-color: transparent;
     background-color: #DEEBFF;
     border-radius: 50%;
-    padding: 0.4cm;
+    padding: 0.38cm;
     margin-top: -0.4em;
 }
 
@@ -526,9 +526,6 @@ strong:hover {
         margin-bottom: 1em;
         margin-top: 1em;
     }
-    #containerhead img {
-        margin-top: 1.4em;
-    }
     .Hébergements h2 {
         margin-left: 2em;
     }
@@ -549,6 +546,7 @@ strong:hover {
         padding-bottom: 1em;
         padding-right: 0;
         margin-right: 0;
+        border-radius: 0;
     }
     #conteneur1 {
         margin-left: 3em;
@@ -854,6 +852,9 @@ strong:hover {
 }
 
 @media(max-device-width: 425px) {
+    .infos {
+        margin-left: 1em;
+    }
     .filtre ul {
         flex-direction: column;
         padding: 0;
@@ -900,7 +901,7 @@ strong:hover {
         width: 240px;
     }
     .populaires h2 {
-        margin-left: 2em;
+        margin-left: 1.5em;
     }
     article.hotel1 {
         margin-left: 0;
@@ -915,7 +916,6 @@ strong:hover {
         margin-left: 2em;
     }
     article.hotel {
-        margin-left: 2.5em;
         margin-bottom: 1em;
     }
     .afficher {
@@ -954,9 +954,17 @@ strong:hover {
     header p {
         margin-left: 3.3em;
     }
+    .fa-info-circle {
+        border: solid transparent;
+        float: left;
+        margin-right: 0.5em;
+    }
 }
 
 @media(max-device-width: 375px) {
+    .filter {
+        padding: 0;
+    }
     .populaires {
         margin-left: 1.5em;
     }
@@ -993,6 +1001,7 @@ strong:hover {
     }
     .Hébergements h2 {
         margin-left: 1.2em;
+        margin-top: 1em;
     }
     .populaires {
         padding: 0;
@@ -1030,11 +1039,11 @@ strong:hover {
     }
     article.hotel {
         margin-bottom: 1em;
-        margin-left: 1.5em;
     }
     .infos {
         padding-left: 1.1em;
         margin-bottom: 1em;
+        margin-left: 0;
     }
     #block1 {
         padding-bottom: 0;
@@ -1046,7 +1055,7 @@ strong:hover {
         margin-bottom: 0;
     }
     .fin {
-        margin-left: 0.5em;
+        margin-left: 1.5em;
     }
     #block {
         margin-bottom: 2em;
@@ -1070,6 +1079,39 @@ strong:hover {
         padding-right: 4em;
     }
     header p {
-        margin-left: 1.4em;
+        margin-left: 1em;
+    }
+}
+
+@media(max-width:320px) {
+    #block img {
+        width: 300px;
+    }
+    #conteneur1 img {
+        width: 300px;
+    }
+    .Hébergements h2 {
+        margin-left: 0.5em;
+    }
+    .populaires h2 {
+        margin-left: 0.5em;
+    }
+    .fa-map-marker-alt {
+        margin-left: 0.5em;
+    }
+    #site-search {
+        width: 190px;
+    }
+    .infos {
+        padding-left: 0.5em;
+    }
+    header p {
+        margin-left: 0.5em;
+    }
+    header h1 {
+        margin-left: 0.5em;
+    }
+    .Diverstisements h2 {
+        margin-left: 0.5em;
     }
 }
