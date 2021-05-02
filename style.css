@@ -898,7 +898,7 @@ strong:hover {
         margin-left: 1.5em;
     }
     #site-search {
-        width: 240px;
+        width: 220px;
     }
     .populaires h2 {
         margin-left: 1.5em;
@@ -940,7 +940,7 @@ strong:hover {
     }
     #choix h3 {
         margin-left: 1.5em;
-        margin-bottom: 0;
+        margin-bottom: 1;
     }
     .fa-map-marker-alt {
         margin-left: 2.6em;
@@ -1012,7 +1012,7 @@ strong:hover {
         padding: 0;
     }
     #site-search {
-        width: 230px;
+        width: 190px;
         padding-right: 1em;
     }
     #containerhead {
@@ -1068,7 +1068,6 @@ strong:hover {
     }
     #choix h3 {
         margin-left: 1.5em;
-        margin-bottom: 0;
         margin-top: 0;
     }
     .fa-map-marker-alt {
@@ -1080,6 +1079,12 @@ strong:hover {
     }
     header p {
         margin-left: 1em;
+    }
+}
+
+@media(max-width:327px) {
+    #site-search {
+        width: 185px;
     }
 }
 
