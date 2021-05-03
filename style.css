@@ -848,7 +848,7 @@ strong:hover {
     }
 }
 
-@media(max-device-width: 425px) {
+@media(max-width: 425px) {
     .infos {
         margin-left: 1em;
     }
@@ -953,7 +953,7 @@ strong:hover {
     }
 }
 
-@media(max-device-width: 375px) {
+@media(max-width: 375px) {
     .filter {
         padding: 0;
     }
