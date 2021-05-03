@@ -104,10 +104,6 @@ article.hotel1 i {
     margin-top: 2em;
 }
 
-article.hotel i {
-    padding-right: -1em;
-}
-
 .populaires {
     background-color: #F2F2F2;
     width: 27%;
@@ -347,7 +343,6 @@ button {
     margin-right: 1em;
     padding-right: 1.5em;
     margin-left: 1em;
-    padding-bottom: -1cm;
 }
 
 strong {
