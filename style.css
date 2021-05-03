@@ -362,6 +362,7 @@ strong {
 #choix h3 {
     font-size: 16px;
     margin-right: 1em;
+    float: left;
 }
 
 header h1 {
