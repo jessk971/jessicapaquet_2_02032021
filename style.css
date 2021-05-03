@@ -676,11 +676,12 @@ strong:hover {
         margin-left: 2.5em;
     }
     .filtre ul {
-        width: 100%;
         padding: 0;
+        margin-left: 3em;
     }
     .filter {
         display: list-item;
+        margin-bottom: 0.5em;
     }
     .recherche {
         width: 100%;
@@ -709,6 +710,7 @@ strong:hover {
     }
     #choix h3 {
         margin-left: 0;
+        position: absolute;
     }
     #containerhead img {
         margin-top: 0.5em;
@@ -857,7 +859,6 @@ strong:hover {
         margin-left: 1em;
     }
     .filtre ul {
-        flex-direction: column;
         padding: 0;
         margin-top: 0;
     }
@@ -939,10 +940,6 @@ strong:hover {
     .block4 article {
         margin: 0;
     }
-    #choix h3 {
-        margin-left: 1.5em;
-        margin-bottom: 1;
-    }
     .fa-map-marker-alt {
         margin-left: 2.6em;
     }
@@ -1011,6 +1008,7 @@ strong:hover {
     }
     .filtre ul {
         padding: 0;
+        justify-content: center;
     }
     #site-search {
         width: 190px;
@@ -1068,8 +1066,7 @@ strong:hover {
         margin-left: 0;
     }
     #choix h3 {
-        margin-left: 1.5em;
-        margin-top: 0;
+        margin-left: 1em;
     }
     .fa-map-marker-alt {
         margin-left: 1em;
