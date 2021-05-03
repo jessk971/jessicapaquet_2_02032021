@@ -59,10 +59,6 @@ article.hotel {
     border: solid white;
 }
 
-h3 {
-    font-size: 14px;
-}
-
 .imageflottante {
     float: left;
 }
@@ -95,7 +91,6 @@ article.hotel1 p {
 }
 
 article.hotel1 h3 {
-    font-size: 16px;
     margin-top: -1em;
     margin: 0.5em;
 }
@@ -1112,4 +1107,64 @@ strong:hover {
     }
 }
 
-@media(max-width:280px) {}
+@media(max-width:280px) {
+    header p {
+        line-height: 1em;
+    }
+    #site-search {
+        width: 150px;
+    }
+    article.hotel1 {
+        width: 250px;
+    }
+    article.hotel1 i {
+        margin-top: 0;
+    }
+    .star2 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .populaires img {
+        width: 100px;
+        height: 100px;
+    }
+    .populaires h3 {
+        font-size: 14px;
+    }
+    .populaires h2 {
+        font-size: 18px;
+        margin-left: 1em;
+    }
+    .Hébergements h2 {
+        font-size: 18px;
+        margin-left: 1em;
+    }
+    #conteneur1 img {
+        width: 250px;
+        height: 100px;
+    }
+    #block img {
+        width: 250px;
+        height: 100px;
+    }
+    .Diverstisements h2 {
+        font-size: 18px;
+        margin-left: 1em;
+    }
+    .afficher {
+        font-size: 18px;
+    }
+    .filter {
+        margin-right: 0;
+    }
+    .filtre ul {
+        margin-top: 2em;
+        margin-left: 0;
+        justify-content: initial;
+    }
+    #choix h3 {
+        position: absolute;
+        top: 17em;
+        margin-right: 1.5em;
+    }
+}
