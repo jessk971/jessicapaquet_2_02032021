@@ -75,7 +75,6 @@ h3 {
 
 #conteneurs {
     display: flex;
-    justify-content: space-betweens;
     flex-wrap: wrap;
 }
 
@@ -389,7 +388,7 @@ header p {
 
 #containerhead {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 1em;
