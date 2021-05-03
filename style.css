@@ -704,7 +704,6 @@ strong:hover {
     }
     #choix h3 {
         margin-left: 0;
-        position: absolute;
     }
     #containerhead img {
         margin-top: 0.5em;
@@ -1112,3 +1111,5 @@ strong:hover {
         margin-left: 0.5em;
     }
 }
+
+@media(max-width:280px) {}
